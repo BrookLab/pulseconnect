@@ -5,7 +5,7 @@
     "type": "library",
     "homepage": "https://github.com/BrookLab/pulseconnect",    
     "require": {
-        "php": ">=4.7.0",
+        "php": ">=4.7.0"
     },
     "authors": [
         {
@@ -15,7 +15,6 @@
         }
     ],
     "autoload": {
-        "autoload": {
         "classmap": ["pulseconnect.php"]
     }
 }
