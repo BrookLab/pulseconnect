@@ -23,7 +23,7 @@ class PulseConnect {
             $this->_username = $username;
 
         if($password)
-            $this->password = $password;
+            $this->_password = $password;
 
         if(isset($options['debug']))
             $this->_debug = $options['debug'];
