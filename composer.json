@@ -1,0 +1,21 @@
+{
+    "name": "brooklab/pulseconnect",
+    "description": "A light-weight utility for performing API transactions with the Datran PulseConnect (StormPost) SOAP API.",
+    "license" : "MIT",
+    "type": "library",
+    "homepage": "https://github.com/BrookLab/pulseconnect",    
+    "require": {
+        "php": ">=4.7.0",
+    },
+    "authors": [
+        {
+            "name": "Joshua McGinnis",
+            "email": "joshua@mcginn.is",
+            "homepage": "http://www.brooklab.com"
+        }
+    ],
+    "autoload": {
+        "autoload": {
+        "classmap": ["pulseconnect.php"]
+    }
+}
