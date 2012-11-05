@@ -17,7 +17,13 @@ class PulseConnect {
     protected $_client;
     protected $_debug = false;
 
-    public function __construct($options = null) {
+    public function __construct($username = false, $password = false, $options = null) {
+
+        if($username)
+            $this->_username = $username;
+
+        if($password)
+            $this->password = $password;
 
         if(isset($options['debug']))
             $this->_debug = $options['debug'];
