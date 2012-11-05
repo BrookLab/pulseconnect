@@ -7,7 +7,7 @@
  * @copyright  Copyright (c) 2012 Joshua McGinnis (http://www.brooklab.com)
  * @license    MIT
  */
-class PulseConnect_API {
+class PulseConnect {
 
     protected $_username = '';
     protected $_password = '';
